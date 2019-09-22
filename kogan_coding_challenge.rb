@@ -1,7 +1,7 @@
 require 'json'
 require 'net/http'
 require 'uri'
-require 'awesome_print'
+# require 'awesome_print'
 
 # Assume all dimensions are given in cm
 def self.calculate_cubic_weigth(conversion_factor, width, length, height)
